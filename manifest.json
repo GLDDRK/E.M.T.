@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "E.M.T.",
+  "description": "L'extention multi-tâche parfaite pour la vie de tout les jours",
+  "version": "0.3.3.5",
+
+    "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "https://github.com/GLDDRK/E.M.T."
+  ],
+
+"browser_action": {
+      "default_title": "E.M.T.",
+      "default_icon":"ico.png",
+      "default_popup": "index.html"
+    }
+}
